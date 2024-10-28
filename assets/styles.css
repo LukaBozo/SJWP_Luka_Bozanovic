@@ -1,0 +1,40 @@
+/* univerzalni selector
+ */
+
+ *{
+    background-color: burlywood;
+ }
+
+
+
+/* element selecto */r
+/* h1{
+    color: brown;
+} */
+ 
+/* class selector */
+.prvi{
+    color: purple;
+}
+
+.drugi{
+    color:darkred;
+}
+
+.treći{
+    color: red;
+}
+
+id /* selector */
+#cetvrti{
+    color: crimson;
+}
+
+/* atribut selector */
+p[draggable="true"]{
+    color: darkgreen;
+}
+
+p[draggable="false"]{
+    color: blueviolet;
+}
