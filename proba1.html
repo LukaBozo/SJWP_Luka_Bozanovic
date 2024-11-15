@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+        </tr>
+        <tr>
+            <td>08:00 - 09:00</td>
+            <!-- Koristimo rowspan="2" za spajanje jedne ćelije na dva reda -->
+            <td rowspan="2">Matematika</td>
+            <td>Grupa 1: Engleski</td>
+        </tr>
+        <tr>
+            <!-- Ovdje ne pišemo ništa za ponedjeljak jer rowspan="2" pokriva oba reda -->
+            <td>Grupa 2: Fizika</td>
+        </tr>
+        <tr>
+            <td>09:00 - 10:00</td>
+            <td>Hemija</td>
+            <td>Biologija</td>
+        </tr>
+    </table>
+</body>
+</html>
