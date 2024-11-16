@@ -167,26 +167,50 @@
 
     <br>
 
-    <label for="name">Ime:</label>
-    <input type="text" name="name" id="name" size="10" maxlength="10">
+    <form action="" method="get">
+
+      <label for="name">Ime:</label>
+      <input type="text" name="name" id="name" size="10" maxlength="10">
+      <br>
+      <br>
+      <label for="prezime">Prezime:</label>
+      <input type="text" name="prezime" id="prezime" size="20" maxlength="20">
+      <br>
+      <br>
+      <label for="pas">Unesi lozinku:</label>
+      <input type="password" name="pas" id="pas">
+      <br>
+      <br>
+      <br>
+      <label>Odaberi:</label>
+      <br>
+      <input type="radio" name="odabir" id="admin" value="admin">
+      <label>Admin</label>
+      <br>
+      <input type="radio" name="odabir" id="guest" value="guest">
+      <label>Guest</label>
+  
+      <br>
+      <br>
+      <input type="checkbox" name="uv" id="uv" value="uv">
+      <label for="uv">Prihvaćam uvjete korištenja</label>
+      <br>
+      <br>
+  
+      <input type="submit" value="Pošalji">
+      <input type="reset" value="Poništi">
+
+    </form>
+
+    <video width="400" height="320" controls>
+      <source src="../podatci_za_zadaće/puppy.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
     <br>
-    <br>
-    <label for="prezime">Prezime:</label>
-    <input type="text" name="prezime" id="prezime" size="20" maxlength="20">
-    <br>
-    <br>
-    <label for="pas">Unesi lozinku:</label>
-    <input type="password" name="pas" id="pas">
-    <br>
-    <br>
-    <br>
-    <label>Odaberi:</label>
-    <br>
-    <input type="radio" name="odabir" id="admin" value="admin">
-    <label>Admin</label>
-    <br>
-    <input type="radio" name="odabir" id="guest" value="guest">
-    <label>Guest</label>
+    <audio controls>
+      <source src="../podatci_za_zadaće/test-audio.ogg" type="audio/ogg">
+      Your browser does not support the audio element.
+    </audio>
 
     
 </body>
