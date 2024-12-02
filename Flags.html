@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        .pozadina{
+            background-color: red;
+            height: 200px;
+            width: 400px;
+            position: relative;
+        }
+        .sredina{
+            position: absolute;
+            background-color: blue;
+            height: 75px;
+            width: 400px;
+            top: 60px;
+            
+            }
+
+        .krug{
+            position: absolute;
+            border-radius: 50%;
+            background-color: white;
+            width: 50px;
+            height: 50px;
+            left: 170px;
+            top: 75px;
+        }
+
+        .glavni{
+            background-color: blue;
+            width: 400px;
+            height: 200px;
+            position: relative;
+            
+        }
+
+        .bijeli1{
+            position: absolute;
+            width: 400px;
+            height: 50px;
+            background-color: white;
+            top: 75px;
+        }
+
+        .bijeli2{
+            position: absolute;
+            width: 50px;
+            height: 200px;
+            background-color: white;
+            left: 100px;
+        }
+
+        .crveni1{
+            position: absolute;
+            width: 400px;
+            height: 30px;
+            background-color: red;
+            top: 85px;
+        }
+
+        .crveni2{
+            position: absolute;
+            width: 30px;
+            height: 200px;
+            background-color: red;
+            left: 110px;
+        }
+
+        .main{
+            display: inline-block;
+            background-color: green;
+            width: 133px;
+            height: 200px;
+        }
+
+        .sec{
+            display: inline-block;
+            background-color: wheat;
+            width: 133px;
+            height: 200px;
+        }
+
+        .sec2{
+            display: inline-block;
+            background-color: orange;
+            width: 133px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Zastave:</h1>
+    <div class="pozadina">
+        <div class="sredina"></div>
+        <div class="krug"></div>
+    </div>
+    <h1>Zastava Iceland:</h1>
+    <div class="glavni" >
+        <div class="bijeli1"></div>
+        <div class="bijeli2"></div>
+        <div class="crveni1"></div>
+        <div class="crveni2"></div>
+    </div>
+    <h1>Zastava Irske:</h1>
+    <div class="main"></div><div class="sec"></div><div class="sec2"></div>
+    <!-- U 1 redu je da nema razmaka izmedju DIV-ova -->
+     
+</body>
+</html>
+
