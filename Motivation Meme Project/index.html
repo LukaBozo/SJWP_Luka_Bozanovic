@@ -27,6 +27,7 @@ But it must have the following features:
 
 
   <style>
+
     body{
       background-color: black;
       font-family: "Libre Baskerville", serif;
@@ -35,14 +36,17 @@ But it must have the following features:
 
     p{
       color: white;
-
-      
     }
+
     h1{
       color: white;
+      text-transform: uppercase;
     }
+    
     img{
       border: 5px solid white;
+      width: 500;
+      height: 400;
     }
 
   </style>
@@ -52,11 +56,11 @@ But it must have the following features:
 <body>
 
   <div class="slika">
-    <img src="../Motivation Meme Project/assets/images/daenerys.jpeg" alt="">
+    <img src="data:image/webp;base64,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" alt="">
   </div>
   <div>
-    <h1>The special moment</h1>
-    <p>When you find the perfect avocado at the supermarket</p>
+    <h1>Kako gledam u prijatelja</h1>
+    <p>Nakon što je za dijete rekao da ima potencijala</p>
   </div>
   
 </body>
