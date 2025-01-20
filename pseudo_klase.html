@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo klase</title>
+
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 35px;
+/*             transition-property: width; Sto radi
+            transition-duration: 5s; Koliko traje
+            transition-delay: 1s; Koliko stoji
+            transition-timing-function: linear; Brzina animacije */
+
+            transition: width 1s ease-in-out;
+
+        }
+        div:hover{
+            background-color: brown;
+            width: 300px;
+            height: 100px;
+        }
+
+        a:link{
+            color: red;
+        }
+
+        a:visited{
+            color: rgb(46, 46, 3);
+        }
+
+        a:hover{
+            color: hotpink;
+        }
+
+        a:active{
+            color: blue;
+        }
+    </style>
+</head>
+
+
+<body>
+    
+    <h2>Pseudo klase</h2>
+    <a href="https:/tportal.hr">Tportal</a>
+    <div></div>
+
+</body>
+
+</html>

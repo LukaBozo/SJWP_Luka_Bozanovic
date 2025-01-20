@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadaci</title>
+
+    <style> 
+/*             div{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 35px;
+
+            
+            transition: width 2s ease-in-out;
+            }
+
+            div:hover{
+            background-color: aqua;
+            width: 300px;
+            height: 100px;
+            }   */       
+ 
+        .div0{
+            position: relative;
+            width: 420px;
+            height: 300px;
+            background-color: bisque;
+        }
+
+        .div1{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            transform-origin: top left;
+            left: 100px;
+        }
+
+        .div2{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            top: 100px;
+            left: 100px;
+            transform-origin: bottom left;
+            
+        }
+
+        .div3{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            top: 100px;
+            left: 200px;
+            transform-origin: bottom right;
+        }
+
+        .div4{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            left: 200px;
+            transform-origin: top right;
+        }
+
+
+/*         .div1:hover{
+            rotate: 90deg;
+            transition-duration: 2s;
+        }
+
+        .div2:hover{
+            rotate: 90deg;
+            transition-duration: 2s;
+        }
+
+        .div3:hover{
+            rotate: 90deg;
+            transition-duration: 2s;
+        }
+
+        .div4:hover{
+            rotate: 90deg;
+            transition-duration: 2s;
+        } */
+
+
+        .div1:hover .div2:hover{
+            rotate: 90deg;
+            transition-duration: 2s;
+        }
+
+
+
+/*         .div0:hover .div1{
+            width: 300px;
+            height: 100px;
+        }
+
+        .div0:hover .div2{
+            width: 300px;
+            height: 100px;
+        } */
+
+  
+
+    
+   
+    </style>
+
+</head>
+
+<body>
+    
+    <h2>Zadaci</h2>
+    <h3>1.</h3>
+    <div class="div0">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+    </div>
+
+</body>
+</html>
