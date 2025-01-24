@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .glavni{
+            position: relative;
+            background-color: bisque;
+            width: 240px;
+            height: 100px;
+            left: 400px;
+            top: 500px;
+        }
+
+        .prvi{
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            background-color: blue;
+            border-radius: 50px;
+            top: 32px;
+            left: 50px;
+            transition: transform 500ms
+        }
+
+        .drugi{
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: blue;
+            border-radius: 50px;
+            top: 36px;
+            left: 100px;
+        }
+
+        .treci{
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            background-color: blue;
+            border-radius: 50px;
+            top: 39px;
+            left: 150px;
+            transition: delay(2000ms);
+        }
+
+       
+
+        .prvi:hover{
+            width: 25px;
+            height: 25px;
+            top: 36px;
+        }
+
+        .drugi:hover{
+            width: 25px;
+            height: 25px;
+            top: 36px;
+        }
+
+        .treci:hover{
+            width: 35px;
+            height: 35px;
+            top: 32px;
+        }
+
+        
+
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="glavni">
+        <div class="prvi"></div>
+        <div class="drugi"></div>
+        <div class="treci"></div>
+    </div>
+
+</body>
+
+
+</html>
