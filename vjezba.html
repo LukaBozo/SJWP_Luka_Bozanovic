@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krug</title>
+    <style>
+        .glavni{
+            position: relative;
+            background-color: whitesmoke;
+            width: 400px;
+            height: 400px;
+            left: 30px;
+        }
+
+        .sredina{
+            position: absolute;
+            border-radius: 100%;
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            left: 100px;
+            top: 100px;
+            z-index: 1;
+        }
+
+        .krug1{
+            position:absolute;
+            border-radius: 100%;
+            width: 300px;
+            height: 300px;
+            left: 50px;
+            top: 50px;
+            background: conic-gradient(#00a878 0% 33%, #028090 33% 66%, #05668d 66% 100%);
+        }
+
+        .prijelaz1{
+            position: absolute;
+            border-radius: 100%;
+            background: #00a878;
+            width: 50px;
+            height: 50px;
+            top: 0px;
+            left: 130px;
+        }
+
+        .prijelaz2{
+            position: absolute;
+            border-radius: 100%;
+            background: #028090;
+            width: 50px;
+            height: 50px;
+            top: 190px;
+            left: 232px ;
+        }
+
+        .prijelaz3{
+            position: absolute;
+            border-radius: 100%;
+            background: #05668d;
+            width: 50px;
+            height: 50px;
+            top: 190px;
+            left: 19px ;
+        }
+
+
+    </style>
+</head>
+
+
+<body>
+    <h2>Krug:</h2>
+    <div class="glavni">
+            <div class="sredina"></div>
+            <div class="krug1">
+                <div class="prijelaz1"></div>
+                <div class="prijelaz2"></div>
+                <div class="prijelaz3"></div>
+            </div>
+        
+    </div>
+</body>
+
+</html>
