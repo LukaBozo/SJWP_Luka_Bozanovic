@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ovo je stranica o učeniku 3.B razreda">
+    <meta name="author" content="Luka Božanović">
+    <title>Zadaća 4</title>
+    <style>
+        .okvir{
+            width: 400px;
+            height: 300px;
+            border: 5px solid black;
+            background-color: #ebf6f0;
+            position: relative;
+            
+        }
+
+        .sredina{
+            position: absolute;
+            width: 400px;
+            height: 100px;
+            background-color: #4a9a86;
+            top: 100px;
+        }
+
+        .LijeviTrokut{
+            position: absolute;
+            border-style: solid;
+            border-width: 151.8px 125px 150px 120px;
+            border-color: transparent transparent transparent #4a9a86;
+        }
+
+        .DesniTrokut{
+            position: absolute;
+            border-style: solid;
+            border-width: 150px 125px 151px 120px;
+            border-color: transparent #4a9a86 transparent transparent;
+            left: 156px;
+        }
+
+        .krug{
+            position: absolute;
+            background-color: #4a9a86;
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            left: 115px;
+            top: 65px;
+        }
+
+
+
+        .Vizitka{
+            width: 500px;
+            height: 300px;
+            border: 5px solid black;
+        }
+
+        .svojstva{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .profilna{
+            width: 150px;
+            height: 150px;
+            margin: 15px 0px 15px 15px;
+        
+        }
+
+        .informacije{
+            flex: 1;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: centers;
+        }
+
+        .opis{
+            font-size: 15px;
+            margin: 5px;
+        }
+
+        .mail{
+            font-size: 15px;
+            margin: 20px 0px 0px 3px;
+        }
+
+        .telefon{
+            font-size: 15px;
+            margin: 3px 0px 20px 3px;
+        }
+
+        .mreze{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <h2>Slika:</h2>
+    <img src="../podatci_za_zadaće/ZadatakZaSJWP.png" alt="Slika zadatka" width="300" height="300">
+
+    <div class="okvir">
+        <div class="sredina"></div>
+        <div class="LijeviTrokut"></div>
+        <div class="DesniTrokut"></div>
+        <divc class="krug"></div>
+    </div>
+    <br>
+    <br>
+
+
+    <h2>Vizitka:</h2>
+
+    <div class="Vizitka">
+        
+        <div class="svojstva">
+
+            <img class="profilna" src="../podatci_za_zadaće/profilna.png" alt="profilna">
+            <div class="informacije">
+                <h1 style="font-size: 40px;">Luka Božanović</h1>
+                <p class="opis">Učenik tehničke škole Slavonski Brod. Volim nogomet, programiranje, glazbu i dizajn.</p>
+                <p class="mail">Email: luka.bozanovic16@gmail.com</p>
+                <p class="telefon">Telefon: +385 92 348 6796</p>
+                <div class="mreze">
+                    <img style="width: 40px; height: 40px;" src="../podatci_za_zadaće/insta.png" alt="intsagram">
+                    <img style="width: 40px; height: 40px;" src="../podatci_za_zadaće/snap.png" alt="snapchat">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
