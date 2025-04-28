@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vjezba</title>
+
+    <style>
+        .container1{
+            display: grid;
+            grid-template-columns: 50px 50px 50px;
+            grid-template-rows: 50px 50px 50px;
+            outline: 1px black solid;
+            width: 150px;
+            height: 80px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        #kvadrat{
+            background-color: grey;
+            height: 25px;
+            width: 30px;
+            padding: 5px;
+            border-radius: 15%;
+        }
+
+
+        .container2{
+         display: grid;
+         grid-template-columns: 50px 50px 50px;
+         grid-template-rows: 50px 50px 50px;
+         outline: 1px black solid;
+         width: 150px;
+         height: 80px;
+         margin: 10px;
+         padding: 10px;
+        }
+
+        .container3{
+         display: grid;
+         grid-template-columns: 50px 50px 50px;
+         grid-template-rows: 50px 50px 50px;
+         outline: 1px black solid;
+         width: 150px;
+         height: 80px;
+         margin: 10px;
+         padding: 10px;
+         
+        }
+
+        #A3{
+            grid-column: span 2;
+            width: 80px;
+            background-color: grey;
+            height: 25px;
+            padding: 5px;
+            border-radius: 15%;
+        }
+
+        #B3{
+            grid-row: span 2;
+            width: 30px;
+            background-color: grey;
+            height: 75px;
+            padding: 5px;
+            border-radius: 15%;
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+    <div class="container1">
+        <div id="kvadrat">A</div>
+        <div id="kvadrat">B</div>
+        <div id="kvadrat">C</div>
+        <div id="kvadrat">D</div>
+        <div id="kvadrat">E</div>
+        <div id="kvadrat">F</div>
+    </div>
+
+    <br>
+    <div class="container2">
+        <div id="kvadrat">D</div>
+        <div id="kvadrat">A</div>
+        <div id="kvadrat">F</div>
+        <div id="kvadrat">E</div>
+        <div id="kvadrat">B</div>
+        <div id="kvadrat">C</div>
+    </div>
+
+    <br>
+    <div class="container3">
+        <div id="A3">A</div>
+        <div id="B3">B</div>
+        <div id="kvadrat">C</div>
+        <div id="kvadrat">D</div>
+    </div>
+    <br>
+    <div class="container4">
+        <div id="kvadrat"></div>
+        <div id="kvadrat"></div>
+        <div id="kvadrat"></div>
+        <div id="kvadrat"></div>
+        <div id="kvadrat"></div>
+    </div>
+
+
+</body>
+
+
+</html>
