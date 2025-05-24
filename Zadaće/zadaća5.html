@@ -128,13 +128,64 @@
         font-size: 16px;
         margin-top: auto;
         background-color: whitesmoke;
+        height: 12vh;
       }
 
       footer p{
         font-size: 17px;
       }
 
+
+      .onama {
+        padding: 60px 80px;
+        background-color: #1a1a1a;
+        text-align: center;
+      }
+
+      .onama h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      .onama p {
+        font-size: 18px;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .galerija {
+        padding: 60px 80px;
+        background-color: #0d0d0d;
+      }
+
+      .galerija h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .gridgalerija {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+
+      .gridgalerija img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: transform 0.3s;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      }
+
+      .gridgalerija img:hover {
+        transform: scale(1.05);
+      }
+
   </style>
+
 </head>
 
 <body>
@@ -170,6 +221,24 @@
             <img src="../SlikePorsche/911.png" alt="Porsche" style="height: 50vh; width: 70vh; margin-top: 80px;">
     </div>
   </div>
+
+
+  <section class="onama">
+    <h2>O nama</h2>
+    <p>
+      Porsche Centar Zagreb je ovlašteni prodajno-servisni centar s višegodišnjom tradicijom u predstavljanju premium sportskih vozila. Naša strast prema vrhunskoj tehnologiji i preciznom izradom čini nas prvim izborom za ljubitelje Porsche brenda.
+    </p>
+  </section>
+
+  <section class="galerija">
+    <h2>Galerija</h2>
+    <div class="gridgalerija">
+      <img src="../SlikePorsche/prvi.jpg" alt="Slika 1">
+      <img src="../SlikePorsche/drugi.jpg" alt="Slika 2">
+      <img src="../SlikePorsche/treci.jpg" alt="Slika 3">
+      <img src="../SlikePorsche/cetvrti.jpg" alt="Slika 4">
+    </div>
+  </section>
 
   <footer>
 
